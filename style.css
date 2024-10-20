@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+
+    background: #000000 ;
+
+}
+
+header{
+
+    width: 100%;
+    height: 40px;
+
+}
+
+.logo-header {
+    font-family: "Trade Winds", system-ui;
+    font-size: 66px;
+    color: #FF0303;
+    margin: -18px 76px;
+    position: absolute;
+}
+
+nav {
+    margin: 61px 53px;
+}
+
+nav>ul>li{
+
+    float: right;
+    padding-right: 70px ;
+    list-style: none;
+}
+
+nav>ul>li>a{
+
+    text-decoration: none;
+    font-size: 35px;
+    font-family: "Russo One", sans-serif;
+    color: #fff;
+    position: relative;
+    transition: 0.5s;
+}
+
+nav>ul>li:hover>a{
+
+    color: #FF0303;
+    transition: 0.5s;
+}
+
+nav>ul>li>a::before{
+
+    position: absolute;
+    content: '';
+    left: 0%;
+    width: 0%;
+    height: 5px;
+    background: #FF0303;
+    bottom: -10px;
+    border-radius: 7px;
+    transition: all 0.5s ease;
+}
+
+
+
+nav>ul>li>a::before{
+
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+nav>ul>li:hover>a::before{
+
+    width: 100%;
+}
+
+
+/* end header */
+
+
+
+/* start section home */
+
+.img-sobhi {
+    width: 900px;
+    height: 1150px;
+    margin: 80px 55px;
+}
+
+p {
+
+    color: #fff;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 120px;
+    line-height: 140px;
+}
+
+
+.content {
+    margin: -960px 1050px;
+    width: 1300px;
+    text-align: justify;
+}
+
+
+.description{
+
+    font-size: 30px;
+    line-height: 43px;
+}
+
+
+.sobhi{
+
+    font-size: 140px;
+    font-family: "Kalam", cursive;
+    color: #ad0000;
+}
+
+.web-developer{
+    font-size: 100px;
+    font-family: "Kalam", cursive;
+    color: #ad0000;
+
+}
+
+.im{
+
+    font-size: 90px;
+}
+
+.link-logo>img{
+
+    filter: invert(14%) sepia(53%) saturate(5302%) hue-rotate(353deg) brightness(92%) contrast(120%);
+    width: 80px;
+    height: 120px;
+    padding-right: 10px;
+    transition: all 0.5s ease;
+
+}
+
+.link-logo>img:hover{
+
+    filter: invert(65%) sepia(30%) saturate(3570%) hue-rotate(147deg) brightness(104%) contrast(101%);
+    transition: all 0.5s ease;
+    width: 90px;
+    height: 130px;
+
+}
+
+
+
+
+
+
+
+
